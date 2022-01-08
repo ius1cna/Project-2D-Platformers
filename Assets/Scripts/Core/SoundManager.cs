@@ -7,14 +7,14 @@ public class SoundManager : MonoBehaviour
 
     private void Awake()
     {
-
         source = GetComponent<AudioSource>();
 
-        //Keep this object even when we go to new scene
+       
         if (instance == null)
         {
             instance = this;
-            DontDestroyOnLoad(gameObject);
+            //Keep this object even when we go to new scene
+            //DontDestroyOnLoad(gameObject);
         }
         //Destroy duplicate gameobjects
         else if (instance != null && instance != this)
