@@ -291,7 +291,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2091507279}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: PlayGame
+        m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -605,7 +605,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Dan stelah perjalanan panjang, Jaka akhirnya\n berhasil mendapatkan harta
+  m_text: "Dan setelah perjalanan panjang, Jaka akhirnya\n berhasil mendapatkan harta
     karun yang dicarinya."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -633,8 +633,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 10
-  m_fontSizeBase: 10
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -858,7 +858,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -87.73703, y: 158.35052}
+  m_AnchoredPosition: {x: -87.735, y: 180.46}
   m_SizeDelta: {x: 175.47, y: -216.8298}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1768327021
@@ -908,8 +908,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1126,7 +1126,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -42, y: 29.856}
+  m_AnchoredPosition: {x: -55, y: 14}
   m_SizeDelta: {x: 421.0615, y: 228.7123}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1834094739
@@ -1250,22 +1250,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 2091507278}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 2091507281}
+        m_TargetAssemblyTypeName: Ending, Assembly-CSharp
+        m_MethodName: MainGame
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1397,6 +1385,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2091507280}
   - component: {fileID: 2091507279}
+  - component: {fileID: 2091507281}
   m_Layer: 5
   m_Name: Ending
   m_TagString: Untagged
@@ -1439,6 +1428,18 @@ RectTransform:
   m_AnchoredPosition: {x: 98.16193, y: -37.520096}
   m_SizeDelta: {x: 379.0689, y: 272.6757}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2091507281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2091507278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f55b8b1345e6a4ca6957eefc983090, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2120715391
 GameObject:
   m_ObjectHideFlags: 0

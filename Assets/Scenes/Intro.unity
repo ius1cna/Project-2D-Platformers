@@ -272,8 +272,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -98.16193, y: 54.47989}
-  m_SizeDelta: {x: -177.08612, y: -185.60477}
+  m_AnchoredPosition: {x: -98.16193, y: 30.354889}
+  m_SizeDelta: {x: -177.0861, y: -137.3548}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &78636409
 MonoBehaviour:
@@ -296,10 +296,10 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: 'MENCERITAKAN TENTANG SEORANG PRIA BERNAMA JAKA YANG BERBURU HARTA KARUN
-    TERSEMBUNYI DI UJUNG TIMUR PULAU JAWA
+    TERSEMBUNYI DI UJUNG TIMUR PULAU JAWA.
 
     DIA HARUS MELEWATI 3 DAERAH BERBAHAYA
-    YAITU JAWA BARAT, JAWA TENGAH DAN JAWA TIMUR
+    YAITU JAWA BARAT, JAWA TENGAH DAN JAWA TIMUR.
 
     DALAM PERJALANANYA DIA HARUS
     MELAWAN MONTER DAN MELEWATI RUNTANGAN RINTANGAN YANG ADA UNTUK MENEMBUKAN HARTA
@@ -330,8 +330,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 10
-  m_fontSizeBase: 10
+  m_fontSize: 16
+  m_fontSizeBase: 16
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -936,8 +936,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -87.73703, y: 158.35052}
-  m_SizeDelta: {x: 175.47, y: -216.8298}
+  m_AnchoredPosition: {x: -86.50427, y: 170.67786}
+  m_SizeDelta: {x: 246.9685, y: -192.1751}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &806739054
 MonoBehaviour:
@@ -986,8 +986,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
+  m_fontSize: 48
+  m_fontSizeBase: 48
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
